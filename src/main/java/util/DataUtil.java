@@ -281,7 +281,7 @@ public class DataUtil {
     ]
     */
     public static List<Map> getVideos() {
-        List<Map> result = new ArrayList<>();
+        List<Map> result = new ArrayList<Map>();
         result.add(ImmutableMap.of("listId", 5434364, "id", 65432445, "title", "The Chamber"));
         result.add(ImmutableMap.of("listId", 5434364, "id", 675465, "title", "Fracture"));
         result.add(ImmutableMap.of("listId", 65456475, "id", 70111470, "title", "Die Hard"));
